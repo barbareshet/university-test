@@ -516,6 +516,7 @@ body.login {
   padding: 12px 24px;
   border: none;
   outline: none;
+  transition: all 0.3s ease-in-out;
 }
 .btn--small {
   font-size: 0.88rem;
@@ -534,6 +535,15 @@ body.login {
 }
 .btn--dark-orange {
   background-color: #F95738;
+}
+.btn--dark-green {
+  background-color: #0a5f0f;
+}
+.btn--pink {
+  background: pink;
+}
+.btn--pink:hover {
+  background: linear-gradient(pink, #ff244a);
 }
 .btn--dark-orange:hover {
   background: linear-gradient(#F95738, #c62000);

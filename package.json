@@ -6,7 +6,7 @@
   "scripts": {
     "build": "wp-scripts build",
     "start": "wp-scripts start",
-    "dev": "wp-scripts start",
+    "dev": "wp-scripts start --hot",
     "devFast": "wp-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

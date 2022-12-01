@@ -9,7 +9,7 @@
   padding: 12px 24px;
   border: none;
   outline: none;
-
+  transition: all .3s ease-in-out;
   &--small {
     font-size: 0.88rem;
     padding: 7px 13px;
@@ -31,6 +31,15 @@
 
   &--dark-orange {
     background-color: $darkOrange;
+  }
+  &--dark-green {
+    background-color: $green;
+  }
+  &--pink {
+    background: $pink;
+    &:hover{
+      background: linear-gradient($pink, scale-color($pink, $lightness: -35%, $saturation: 100%));
+    }
   }
 
   &--dark-orange:hover {
